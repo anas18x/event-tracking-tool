@@ -1,0 +1,27 @@
+{
+  "name": "event-tracking-tool",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "scrape": "node -e \"import('./service/eventService.js').then(m => m.quickScrape())\"",
+    "scrape:full": "node -e \"import('./service/eventService.js').then(m => m.fullScrape())\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Event tracking tool - scrapes events from multiple platforms",
+  "type": "module",
+  "dependencies": {
+    "dayjs": "^1.11.19",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "google-auth-library": "^10.5.0",
+    "google-spreadsheet": "^5.0.2",
+    "googleapis": "^171.1.0",
+    "inquirer": "^12.11.1",
+    "node-cron": "^4.2.1",
+    "playwright": "^1.58.1"
+  }
+}
