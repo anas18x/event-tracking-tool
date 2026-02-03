@@ -2,6 +2,8 @@
 
 so basically this thing scrapes events from district.in website and saves them to google sheets. pretty cool right?
 
+https://docs.google.com/spreadsheets/d/14LAfD2sKySiuol21Tqis849Zv7x2oYNXFBU2GIdnD2w/edit?usp=sharing
+
 ## what does it do?
 
 - scrapes events from district.in for different cities (delhi, mumbai, jaipur, kolkata, pune)
