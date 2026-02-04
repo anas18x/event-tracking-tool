@@ -4,9 +4,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js",
-    "scrape": "node -e \"import('./service/eventService.js').then(m => m.quickScrape())\"",
-    "scrape:full": "node -e \"import('./service/eventService.js').then(m => m.fullScrape())\""
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
